@@ -1,0 +1,30 @@
+.logoBox {
+   border: red solid 2px;
+   width: 15rem;
+   height: 24rem;
+   padding: 0;
+   margin: 0;
+}
+
+.g {
+   font-family: 'Baskervville', serif;
+   font-size: 25rem;
+   text-align: left;
+   color: var(--wt);
+   margin: 0;
+   padding: 0;
+}
+
+.well {
+   font-family: 'Baskervville', serif;
+   font-size: 8rem;
+   text-align: left;
+   color: var(--sb);
+   
+}
+
+.webDeveloper {
+   font-family: 'Imprima', sans-serif;
+   font-size: 10rem;
+   color: var(--rd);
+}
