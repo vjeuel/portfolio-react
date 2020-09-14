@@ -12,16 +12,28 @@ function Contact() {
             return (
                <h3>
                   Got a few projects in my{' '}
-                  <a href={data.github} rel="noopener noreferrer">
+                  <a
+                     href={data.github}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
                      GitHub
                   </a>
                   , check out my{' '}
-                  <a href={data.linkedin} rel="noopener noreferrer">
+                  <a
+                     href={data.linkedin}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
                      LinkedIn
                   </a>{' '}
                   profile
                   <br /> and feel free to reach out by{' '}
-                  <a href={data.email} rel="noopener noreferrer">
+                  <a
+                     href={data.email}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
                      e-mail
                   </a>{' '}
                   or <a href={data.phone}>phone</a>.
@@ -30,7 +42,7 @@ function Contact() {
          })}
          <h3>
             Ahhh, make sure to check my{' '}
-            <a href={Resume} rel="noopener noreferrer">
+            <a href={Resume} target="_blank" rel="noopener noreferrer">
                resume
             </a>{' '}
             too!

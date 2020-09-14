@@ -41,6 +41,8 @@ h3 {
   line-height: 1.75;
   color: var(--pb);
   display: block;
+  margin: 1rem 0;
+  padding: 0;
 }
 
 a {
