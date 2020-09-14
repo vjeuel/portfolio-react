@@ -11,13 +11,19 @@ function Navbar() {
             <img src={logo} alt="Logo" className="logo" />
             <img src={jeuel} alt="Logo" className="jeuel" />
             <button>
-               <Link to="/about">about</Link>
+               <Link to="/about" className="navLink">
+                  about
+               </Link>
             </button>
             <button>
-               <Link to="/portfolio">portfolio</Link>
+               <Link to="/portfolio" className="navLink">
+                  portfolio
+               </Link>
             </button>
             <button>
-               <Link to="/contact">contact</Link>
+               <Link to="/contact" className="navLink">
+                  contact
+               </Link>
             </button>
          </div>
       </nav>

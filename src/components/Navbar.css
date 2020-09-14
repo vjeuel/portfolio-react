@@ -42,3 +42,7 @@ button:hover {
    /* box-shadow: 0 0 5px var(--rd); */
    transition: ease-in-out 0.5s ;
 }
+
+.navLink {
+   color: var(--wt)
+}
