@@ -12,7 +12,7 @@ function App() {
 			<div className='App'>
 				<Navbar />
 				<Switch>
-					<Route exact path='/' component={About} />
+					<Route path='/about' exact component={About} />
 					<Route path='/portfolio' component={Portfolio} />
 					<Route path='/contact' component={Contact} />
 				</Switch>
