@@ -1,16 +1,18 @@
-<a href="https://vjeuel.github.io/portfolio-react" align="center">
-  <img src="./src/components/img/banner.png" height="100%">
-</a>
+<p align='center'>
+   <a href="https://vjeuel.github.io/portfolio-react">
+      <img src="./src/components/img/banner.png" height="80%">
+   </a>
+</p>
 
 You can access the app [here](https://vjeuel.github.io/portfolio-react)
 
 ## Description
 
-My portfolio designed using React.
+My portfolio created and designed using React.
 
 ## **License**<br>
 
-mit
+MIT
 
 ## **Contact**<br>
 
