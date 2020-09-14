@@ -29,6 +29,10 @@
 	border-radius: 1rem;
 }
 
+.projectLinks {
+	color: var(--wt);
+}
+
 .projectImg {
 	background-size: cover;
 	background-position: top center;

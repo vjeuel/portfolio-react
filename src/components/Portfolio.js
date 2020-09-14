@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Pages.css';
 
 function Contact() {
@@ -8,7 +7,7 @@ function Contact() {
 			{links.map((data) => {
 				return (
 					<div className='cards'>
-						<a href={data.href} target='_blank' rel='noopener noreferrer'>
+						<a href={data.href} target='_blank' rel='noopener noreferrer' className='projectLinks'>
 							<img style={{ backgroundImage: 'url(' + data.url + ')' }} className='projectImg' alt='' />
 							<h4>{data.title}</h4>
 							<h5>{data.about}</h5>
