@@ -8,18 +8,15 @@ function Contact() {
          {links.map((data) => {
             return (
                <div className="cards">
-                  <Link
-                     href={data.href}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                  >
+                  <a href={data.href} target="_blank" rel="noopener noreferrer">
                      <img
                         style={{ backgroundImage: 'url(' + data.url + ')' }}
                         className="projectImg"
                         alt=""
                      />
-
-                  </Link>
+                     <h4>{data.title}</h4>
+                     <h5>{data.about}</h5>
+                  </a>
                </div>
             );
          })}
@@ -29,32 +26,32 @@ function Contact() {
 
 const links = [
    {
-      id: '',
-      href: '',
-      url: '',
-      title: '',
-      about: '',
+      id: 'inventory management system',
+      href: 'https://lit-meadow-59526.herokuapp.com',
+      url: './img/portfolio/chief.png',
+      title: 'Inventory Management System',
+      about: 'React app, Full Stack Development',
    },
    {
-      id: '',
-      href: '',
-      url: '',
-      title: '',
-      about: '',
+      id: 'employee directory',
+      href: 'https://vjeuel.github.io/employee_directory/',
+      url: './img/portfolio/employee_directory.png',
+      title: 'Employee Directory',
+      about: 'React app with Search and Sort capabilities',
    },
    {
-      id: '',
-      href: '',
-      url: '',
-      title: '',
-      about: '',
+      id: 'budget tracker',
+      href: 'https://protected-spire-02687.herokuapp.com/',
+      url: './img/portfolio/budget_tracker.png',
+      title: 'Budget Tracker',
+      about: 'Uses MongoDB and IndexedDB for offline use',
    },
    {
-      id: '',
-      href: '',
-      url: '',
-      title: '',
-      about: '',
+      id: 'fitness tracker',
+      href: 'https://guarded-stream-70696.herokuapp.com',
+      url: './img/portfolio/fitness_tracker.png',
+      title: 'Fitness Tracker',
+      about: 'Uses MongoDB and npm dependencies',
    },
    {
       id: 'restaurant user interface',

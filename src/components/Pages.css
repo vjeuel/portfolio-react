@@ -21,13 +21,14 @@
    padding: 5rem 5rem 5rem 10rem;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-   grid-template-rows: repeat(auto-fit, 35rem);
-   grid-gap: 4rem;
+   grid-template-rows: repeat(auto-fit, 35rem) 10rem;
+   grid-gap: 5rem;
 }
 
 .cards {
    height: 35rem;
-
+   border: 1px solid var(--wt);
+   border-radius: 1rem;
 }
 
 .projectImg {
@@ -37,7 +38,6 @@
    height: 75%;
    border-radius: 1rem;
 }
-
 
 /* Contact ------------------------------------*/
 .contact {
