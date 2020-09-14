@@ -1,33 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Jura:wght@700&display=swap');
 
 :root {
   --pb: #0C3559;
-  --sb: #148BA6;
+  --sb: #138BA5;
   --rd: #F21D1D;
   --wt: #f2f2f2;
+  --font1: 'Baskervville', serif;
+  --font2: 'Jura', sans-serif;
 }
-
 
 * {
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
+h1 {
+  font-family: var(--font1);
+  font-size: 8rem;
+  text-align: right;
+  color: var(--pb);
+  margin-bottom: 6rem;
+  display: block;
 }
 
+h2 {
+  font-family: var(--font2);
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: right;
+  line-height: 1.75;
+  color: var(--sb);
+  margin-bottom: 6rem;
+  display: block;  
+}
 
-/* Color Theme Swatches in Hex */
-.Game-Design-2-hex { color: #0C3559; }
-.Game-Design-4-hex { color: #148BA6; }
-.Game-Design-5-hex { color: #F21D1D; }
+h3 {
+  font-family: var(--font2);
+  font-weight: 400;
+  font-size: 2.25rem;
+  text-align: right;
+  line-height: 1.75;
+  color: var(--pb);
+  display: block;
+}
 
-/* Color Theme Swatches in RGBA */
-.Game-Design-2-rgba { color: rgba(12, 53, 89, 1); }
-.Game-Design-4-rgba { color: rgba(19, 139, 165, 1); }
-.Game-Design-5-rgba { color: rgba(242, 29, 29, 1); }
+a {
+  color: var(--rd);
+  text-decoration: none;
+}
 
-/* FONTS
-font-family: 'Baskervville', serif;
-font-family: 'Imprima', sans-serif;
-*/
+a:hover {
+  color: var(--sb);
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}

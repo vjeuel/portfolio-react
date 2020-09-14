@@ -1,0 +1,44 @@
+.navGrid {
+   height: 100vh;
+   width: 20rem;
+   padding: 2.5rem;
+}
+
+.mainGrid {
+   background-color: '#0C3559';
+   height: 90%;
+   display: grid;
+   grid-template-rows: 25rem 15rem  5rem 5rem 5rem;
+   grid-row-gap: 2rem;
+   justify-content: center;
+   align-content: space-between;
+   position: fixed;
+}
+
+.logo {
+   width: 15rem;
+}
+
+.jeuel {
+   width: 15rem;
+   border: solid 8px var(--rd);
+   border-radius: 50%;
+}
+
+button {
+   font-family: var(--font2);
+   font-size: 2rem;
+   background-color: transparent;
+   color: var(--wt);
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   color: var(--rd);
+   /* border: 1px solid var(--sb); */
+   font-size: 2.25rem;
+   border-radius: 5px;
+   /* box-shadow: 0 0 5px var(--rd); */
+   transition: ease-in-out 0.5s ;
+}
