@@ -7,22 +7,22 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
 function App() {
-   return (
-      <div className="App">
-         <Navbar />
-         <Switch>
-            <Route path="/about">
-               <About />
-            </Route>
-            <Route path="/portfolio">
-               <Portfolio />
-            </Route>
-            <Route path="/contact">
-               <Contact />
-            </Route>
-         </Switch>
-      </div>
-   );
+	return (
+		<div className='App'>
+			<Navbar />
+			<Switch>
+				<Route path='/'>
+					<About />
+				</Route>
+				<Route path='/portfolio'>
+					<Portfolio />
+				</Route>
+				<Route path='/contact'>
+					<Contact />
+				</Route>
+			</Switch>
+		</div>
+	);
 }
 
 export default App;
