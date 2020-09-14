@@ -18,4 +18,4 @@ MIT
 
 vjeuel@gmail.com<br>
 
-<img src="https://avatars2.githubusercontent.com/u/26153956?v=4" class="profile" align="left" height="120"/>
+<img src="https://avatars2.githubusercontent.com/u/26153956?v=4" class="profile" align="left" height="120px" border-radius="50%"/>
