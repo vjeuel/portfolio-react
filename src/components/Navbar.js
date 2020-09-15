@@ -10,7 +10,7 @@ function Navbar() {
 			<div className='mainGrid'>
 				<img src={logo} alt='Logo' className='logo' />
 				<img src={jeuel} alt='Logo' className='jeuel' />
-				<Link to='/portfolio-react/about' className='navLink'>
+				<Link to='/portfolio-react/' className='navLink'>
 					<button>about</button>
 				</Link>
 				<Link to='/portfolio-react/portfolio' className='navLink'>
