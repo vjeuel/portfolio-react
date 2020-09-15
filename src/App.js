@@ -13,7 +13,7 @@ function App() {
 				<Navbar />
 				<Switch>
 					<Route path='/portfolio-react/' exact component={About} />
-					<Route path='/portfolio-react/portfolio' component={Portfolio} />
+					<Route path='/portfolio-react/portfolio' exact component={Portfolio} />
 					<Route path='/portfolio-react/contact' component={Contact} />
 				</Switch>
 			</div>
