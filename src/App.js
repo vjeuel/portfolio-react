@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, withRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -12,9 +12,9 @@ function App() {
 			<div className='App'>
 				<Navbar />
 				<Switch>
-					<Route path='/portfolio-react/' exact component={About} />
-					<Route path='/portfolio-react/portfolio' exact component={Portfolio} />
-					<Route path='/portfolio-react/contact' component={Contact} />
+					<Route path='/' exact component={withRouter(About)} />
+					<Route path='/portfolio' component={withRouter(Portfolio)} />
+					<Route path='/contact' component={withRouter(Contact)} />
 				</Switch>
 			</div>
 		</Router>
