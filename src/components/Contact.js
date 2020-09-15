@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pages.css';
-import Resume from './ResumeJeuel.pdf';
+import Resume from './img/ResumeJeuel.pdf';
 
 function Contact() {
 	return (
