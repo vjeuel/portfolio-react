@@ -4,7 +4,7 @@ import Resume from './img/ResumeJeuel.pdf';
 
 function Contact() {
 	return (
-		<div className='pagesGrid contact' id='contact'>
+		<div className='pagesGrid contact'>
 			<h1>My name is Jeuel Viveros</h1>
 			<h2>Let's create good things together.</h2>
 			<h3>I am a Boot Camp graduate at SMU, Dallas, TX.</h3>

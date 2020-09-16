@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import { Link, withRoute } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from './img/logo.png';
 import jeuel from './img/jeuel.png';
 
