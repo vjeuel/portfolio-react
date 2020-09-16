@@ -98,3 +98,18 @@ button:hover {
 		transition: none;
 	}
 }
+
+/* Height */
+@media (max-height: 630px) {
+	.jeuel {
+		display: none;
+	}
+
+	.logo {
+		width: 12rem;
+	}
+
+	.mainGrid {
+		grid-template-rows: 20rem 2rem 2rem 2rem;
+	}
+}
